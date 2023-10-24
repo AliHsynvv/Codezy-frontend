@@ -1,0 +1,19 @@
+#hero h1 {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hero a {
+    transition: .3s;
+    margin-top: 36px;
+    font-weight: bold;
+    padding: 16px 48px;
+    border-radius: 36px;
+    color: var(--primary-design-color);
+    background-color: var(--secondary-design-color);
+}
+
+#hero a:hover {
+    transform: rotate(2deg);
+}

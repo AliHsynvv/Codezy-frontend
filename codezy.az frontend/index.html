@@ -82,18 +82,64 @@
     <!-- Main -->
     <main>
         <!-- Hero -->
-        <section id="hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="d-flex flex-column align-items-center">
-                            <h1>Yaradıcı və interaktiv<br>təhsil mərkəzi.</h1>
-                            <a href="https://wa.me/+994558042070" target="_blank">İndi başla</a>
-                        </div>
-                    </div>
-                </div>
+      <section id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+              <div class="d-flex flex-column align-items-center">
+                <h1>Yaradıcı və interaktiv<br />təhsil mərkəzi.</h1>
+                <!-- Button trigger modal -->
+                <br />
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                  id="modal-button"
+                >
+                  indi başla
+                </button>
+              
+          </div>
+        </div>
+        <!-- Modal -->
+        <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                Aşağıdakılardan birini seçin
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
             </div>
-        </section>
+            <div class="modal-body">
+              <a class="modal-body-a" target="_blank"  href="Telimler.html"
+                >1.Sizin üçün hansı təlim maraqlıdır?</a
+              >
+              <br>
+              <br>
+              <a class="modal-body-a" target="_blank" href="https://wa.me/+994558042070"
+                >2.Təlimlər haqqında məlumatım yoxdur .</a
+              >
+            </div>
+          </div>
+        </div>
+    </div>
+      </section>
         <!-- Trainings -->
         <section id="trainings">
             <div class="container">
